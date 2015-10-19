@@ -21,6 +21,7 @@ public class CyberBeatBoxClient {
 	JList incomingList;
 	JTextField userMessage;
 
+	/*Vector type is used because we need to use it in the GUI element */
 	Vector<String> listWithUsers = new Vector<>();
 	int nextUser;
 	static String generalName;
